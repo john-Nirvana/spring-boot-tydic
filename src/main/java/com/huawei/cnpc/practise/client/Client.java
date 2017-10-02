@@ -7,6 +7,12 @@ import com.huawei.cnpc.practise.impl.DynamicProxy;
 import com.huawei.cnpc.practise.impl.RealSubject;
 import com.huawei.cnpc.practise.interf.Subject;
 
+/**
+ * 动态代理应用场景主要是： 1：spring 动态代理aop原理 2：rpc调用,将真实的调用隐藏起来 让开发者就像调用本地接口一样
+ * 
+ * @author hadoop
+ *
+ */
 public class Client {
 	public static void main(String[] args) {
 		// 我们要代理的真实对象
