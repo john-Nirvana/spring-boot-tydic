@@ -1,4 +1,4 @@
-package com.huawei.cnpc.server;
+package org.cnpc.server;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
